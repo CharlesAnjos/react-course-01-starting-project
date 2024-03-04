@@ -1,12 +1,20 @@
 import "./CoreConcept.css"
+import { CORE_CONCEPTS } from "../../data.js";
 
-function CoreConcept({image,title,description}) {
+function CoreConcept() {
   return (
-    <li>
-      <img src={image} alt={title} />
-      <h3>{title}</h3>
-      <p>{description}</p>
-    </li>
+    <section id="core-concepts">
+      <h2>Core Concepts!</h2>
+      <ul>
+        {CORE_CONCEPTS.map((conceptItem) => 
+        <li>
+          <img src={conceptItem.image} alt={conceptItem.title} />
+          <h3>{conceptItem.title}</h3>
+          <p>{conceptItem.description}</p>
+        </li>
+        )}
+      </ul>
+    </section>
   );
 }
 
