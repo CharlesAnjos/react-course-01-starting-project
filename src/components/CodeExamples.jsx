@@ -29,7 +29,6 @@ function CodeExamples() {
   return (
     <Section id="examples" title="Examples!">
       <Tabs
-        buttonsContainer="menu"
         buttons={
           <>
             {exampleTabs.map((exampleTabItem) =>
