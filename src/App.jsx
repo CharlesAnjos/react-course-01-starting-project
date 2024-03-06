@@ -1,6 +1,6 @@
-import Header from "./components/Header/Header.jsx";
-import CoreConcept from "./components/CoreConcept/CoreConcept.jsx";
-import CodeExamples from "./components/CodeExamples/CodeExamples.jsx"
+import Header from "./components/Header.jsx";
+import CoreConcept from "./components/CoreConcept.jsx";
+import CodeExamples from "./components/CodeExamples.jsx"
 
 function App() {
   return (

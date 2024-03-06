@@ -1,5 +1,4 @@
-import "./CoreConcept.css"
-import { CORE_CONCEPTS } from "../../data.js";
+import { CORE_CONCEPTS } from "../data.js";
 
 function CoreConcept() {
   return (
